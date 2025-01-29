@@ -24,6 +24,7 @@ jobs:
             
   test:
     name: Test And Deploy
+    environment: ci
     strategy:
       matrix:
         os: [ubuntu-latest]

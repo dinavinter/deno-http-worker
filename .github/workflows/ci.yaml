@@ -54,10 +54,6 @@ jobs:
           CI: true
       - uses: JS-DevTools/npm-publish@v3
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          registry: "https://npm.pkg.github.com"
-      - uses: JS-DevTools/npm-publish@v3
-        with:
           token: ${{ secrets.NPM_TOKEN }}
 
       # - uses: lyzhang1999/npm-publish@v1.0.2
